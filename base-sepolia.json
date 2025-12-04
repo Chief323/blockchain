@@ -1,1 +1,59 @@
 
+{
+  "name": "Base Sepolia",
+  "chain": "ETH",
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "networkId": 84532,
+  "rpc": [
+    "https://sepolia.base.org",
+    "https://base-sepolia.publicnode.com",
+    "https://base-sepolia-rpc.publicnode.com",
+    "https://base-sepolia.gateway.tenderly.co"
+  ],
+  "faucets": [
+    "https://www.alchemy.com/faucets/base-sepolia",
+    "https://faucet.quicknode.com/base/sepolia",
+    "https://www.coinbase.com/faucets/base-ethereum-sepolia-faucet"
+  ],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "BaseScan",
+      "url": "https://sepolia.basescan.org",
+      "standard": "EIP3091",
+      "icon": "basescan"
+    },
+    {
+      "name": "Blockscout",
+      "url": "https://base-sepolia.blockscout.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://base.org",
+  "shortName": "base-sepolia",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [
+      {
+        "name": "Base Sepolia Bridge",
+        "url": "https://bridge.base.org"
+      }
+    ]
+  },
+  "icon": "base",
+  "features": [
+    {
+      "name": "EIP1559"
+    }
+  ],
+  "consensus": "Optimistic Rollup",
+  "vmType": "EVM",
+  "status": "active",
+  "testnet": true
+}
