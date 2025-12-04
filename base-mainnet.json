@@ -1,0 +1,58 @@
+{
+  "name": "Base",
+  "chain": "ETH",
+  "network": "mainnet",
+  "chainId": 8453,
+  "networkId": 8453,
+  "rpc": [
+    "https://mainnet.base.org",
+    "https://base.llamarpc.com",
+    "https://base.publicnode.com",
+    "https://1rpc.io/base",
+    "https://base.gateway.tenderly.co",
+    "https://base-rpc.publicnode.com"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "explorers": [
+    {
+      "name": "BaseScan",
+      "url": "https://basescan.org",
+      "standard": "EIP3091",
+      "icon": "basescan"
+    },
+    {
+      "name": "Blockscout",
+      "url": "https://base.blockscout.com",
+      "standard": "EIP3091"
+    }
+  ],
+  "infoURL": "https://base.org",
+  "shortName": "base",
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-1",
+    "bridges": [
+      {
+        "name": "Base Bridge",
+        "url": "https://bridge.base.org"
+      }
+    ]
+  },
+  "icon": "base",
+  "features": [
+    {
+      "name": "EIP1559"
+    },
+    {
+      "name": "EIP4844"
+    }
+  ],
+  "consensus": "Optimistic Rollup",
+  "vmType": "EVM",
+  "status": "active"
+}
